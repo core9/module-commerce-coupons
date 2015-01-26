@@ -22,7 +22,5 @@ task publishBintray (type: org._10ne.gradle.rest.RestTask, dependsOn: bintrayUpl
 dependencies {
   apiCompile 'io.core9:core-api:+'
   apiCompile 'io.core9:module-widgets-api:+'
-  implCompile 'io.core9:module-authentication-api:+'
-  implCompile 'io.core9:module-server-api:+'
-  implCompile 'io.core9:module-template-engine-closure-api:+'
+  apiCompile 'io.core9:module-commerce-api:+'
 }
