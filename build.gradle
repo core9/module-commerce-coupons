@@ -2,11 +2,11 @@
 // Build with: ./gradlew clean test build
 // Publish with  ./gradlew clean test build publish publishBintray
 
-apply from: 'http://www.core9.io/buildfiles/gradle/source.gradle'
-apply from: 'http://www.core9.io/buildfiles/gradle/publish.gradle'
+apply from: 'https://raw.githubusercontent.com/core9/core9.github.io/master/buildfiles/gradle/source.gradle'
+apply from: 'https://raw.githubusercontent.com/core9/core9.github.io/master/buildfiles/gradle/publish.gradle'
 
 buildscript {
-	apply from: 'http://www.core9.io/buildfiles/gradle/publish-build.gradle'
+	apply from: 'https://raw.githubusercontent.com/core9/core9.github.io/master/buildfiles/gradle/publish-build.gradle'
 }
 
 /**
